@@ -27,10 +27,7 @@ namespace BayPansiyonOtomasyonu
         {
             baglanti.Open();
             
-            if (Btn101.Text!="101")
-            {
-                Btn101.BackColor = Color.Red;
-            }
+            
 
            
         }

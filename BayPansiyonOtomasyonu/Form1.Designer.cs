@@ -49,6 +49,7 @@
             this.label1.Size = new System.Drawing.Size(165, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -60,6 +61,7 @@
             this.label2.Size = new System.Drawing.Size(75, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Şifre:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // TxtKullaniciAdi
             // 
@@ -68,6 +70,7 @@
             this.TxtKullaniciAdi.Name = "TxtKullaniciAdi";
             this.TxtKullaniciAdi.Size = new System.Drawing.Size(244, 34);
             this.TxtKullaniciAdi.TabIndex = 2;
+            this.TxtKullaniciAdi.TextChanged += new System.EventHandler(this.TxtKullaniciAdi_TextChanged);
             // 
             // TxtSifre
             // 
@@ -77,6 +80,7 @@
             this.TxtSifre.Size = new System.Drawing.Size(244, 34);
             this.TxtSifre.TabIndex = 3;
             this.TxtSifre.UseSystemPasswordChar = true;
+            this.TxtSifre.TextChanged += new System.EventHandler(this.TxtSifre_TextChanged);
             // 
             // BtnGirisYap
             // 

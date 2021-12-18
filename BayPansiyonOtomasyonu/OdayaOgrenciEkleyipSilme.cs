@@ -125,5 +125,10 @@ namespace BayPansiyonOtomasyonu
         {
             _ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[2].Value);
         }
+
+        private void comboBox1_MouseHover(object sender, EventArgs e)
+        {
+            comboBox1.BackColor = Color.White;
+        }
     }
 }

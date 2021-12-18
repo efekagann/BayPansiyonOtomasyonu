@@ -42,7 +42,6 @@
             this.BtnVerileriGoster = new System.Windows.Forms.Button();
             this.BtnGuncelle = new System.Windows.Forms.Button();
             this.BtnSil = new System.Windows.Forms.Button();
-            this.BtnAra = new System.Windows.Forms.Button();
             this.MskTelefon = new System.Windows.Forms.MaskedTextBox();
             this.DtpCikisTarihi = new System.Windows.Forms.DateTimePicker();
             this.DtpGirisTarihi = new System.Windows.Forms.DateTimePicker();
@@ -173,18 +172,6 @@
             this.BtnSil.Text = "Sil";
             this.BtnSil.UseVisualStyleBackColor = false;
             this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
-            // 
-            // BtnAra
-            // 
-            this.BtnAra.BackColor = System.Drawing.Color.LightGray;
-            this.BtnAra.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnAra.Location = new System.Drawing.Point(1055, 326);
-            this.BtnAra.Name = "BtnAra";
-            this.BtnAra.Size = new System.Drawing.Size(176, 46);
-            this.BtnAra.TabIndex = 4;
-            this.BtnAra.Text = "Ara";
-            this.BtnAra.UseVisualStyleBackColor = false;
-            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
             // MskTelefon
             // 
@@ -368,7 +355,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(936, 378);
+            this.textBox1.Location = new System.Drawing.Point(936, 344);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(295, 30);
             this.textBox1.TabIndex = 40;
@@ -379,7 +366,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(860, 381);
+            this.label10.Location = new System.Drawing.Point(860, 347);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(70, 29);
             this.label10.TabIndex = 39;
@@ -425,7 +412,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.BtnAra);
             this.Controls.Add(this.BtnSil);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnVerileriGoster);
@@ -456,7 +442,6 @@
         private System.Windows.Forms.Button BtnVerileriGoster;
         private System.Windows.Forms.Button BtnGuncelle;
         private System.Windows.Forms.Button BtnSil;
-        private System.Windows.Forms.Button BtnAra;
         private System.Windows.Forms.MaskedTextBox MskTelefon;
         private System.Windows.Forms.DateTimePicker DtpCikisTarihi;
         private System.Windows.Forms.DateTimePicker DtpGirisTarihi;

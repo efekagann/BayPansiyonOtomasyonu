@@ -108,7 +108,7 @@ namespace BayPansiyonOtomasyonu
 
         private void BtnAra_Click(object sender, EventArgs e)
         {
-            musterileriGoruntule();
+            //musterileriGoruntule();
         }
 
         private void musterileriGoruntule()

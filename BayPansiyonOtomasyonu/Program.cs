@@ -16,7 +16,7 @@ namespace BayPansiyonOtomasyonu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OdayaOgrenciEkleyipSilme());
+            Application.Run(new Form1());
         }
     }
 }
